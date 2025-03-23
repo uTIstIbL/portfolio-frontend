@@ -11,4 +11,11 @@ hero:
     - theme: alt
       text: 簡歷
       link: /resume
+features:
+  - icon: 🐙
+    title: 後端工程作品
+    details: Exprss、PostgresSQL、MongoDB
+  - icon: 🎬
+    title: YouTube 剪輯作品
+    details: Adobe Premiere、Adobe Photoshop
 ---
