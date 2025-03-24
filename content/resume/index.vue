@@ -2,7 +2,7 @@
 import { VPTeamMembers } from "vitepress/theme";
 
 const user = {
-  avatar: "https://www.github.com/your-github-username.png",
+  avatar: "https://i.meee.com.tw/DUmcSTk.jpg",
   name: "AaronKao",
   title: "後端工程師 | 影片剪輯師",
   links: [
@@ -15,7 +15,7 @@ const user = {
 };
 
 const bio =
-  "I am a passionate frontend developer and UI/UX designer with experience in building user-friendly web applications. I love working with modern technologies like Vue.js and TailwindCSS to create intuitive and aesthetically pleasing designs.";
+  "我是一名熱愛技術的後端工程師與影片剪輯師，擁有兩年的後端開發經驗，並致力於打造高效且穩定的系統。我喜歡使用現代技術，如 Node.js 來開發後端服務，同時也熱衷於影片剪輯，創造具吸引力的視覺內容。";
 
 const skills = [
   "Express",
