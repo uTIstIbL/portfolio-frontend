@@ -6,7 +6,7 @@ const user = {
   name: "AaronKao",
   title: "後端工程師 | 影片剪輯師",
   links: [
-    { icon: "github", link: "https://github.com/uTIstIbL" },
+    { icon: "github", link: "https://github.com/ronkaotw" },
     {
       icon: "youtube",
       link: "https://www.youtube.com/playlist?list=PLfj9AELIIYJdFDqpXjyJf_GccS-myHJHv",

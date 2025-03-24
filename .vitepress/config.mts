@@ -15,12 +15,12 @@ export default defineConfig({
       { text: "聯絡我", link: "/contact" },
     ],
 
-    socialLinks: [{ icon: "github", link: "https://github.com/uTIstIbL" }],
+    socialLinks: [{ icon: "github", link: "https://github.com/ronkaotw" }],
 
     footer: {
       message: "特別感謝 Vitepress 提供版型 ",
       copyright:
-        'Copyright © 2025- <a href="https://github.com/uTIstIbL" target="_blank">Aaron</a>',
+        'Copyright © 2025- <a href="https://github.com/ronkaotw" target="_blank">Aaron</a>',
     },
   },
 });

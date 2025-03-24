@@ -1,6 +1,6 @@
 <script setup>
 const contacts = [
-  { name: "GitHub", icon: "github", link: "https://github.com/uTIstIbL" },
+  { name: "GitHub", icon: "github", link: "https://github.com/ronkaotw" },
   {
     name: "YouTube",
     icon: "YouTube",
