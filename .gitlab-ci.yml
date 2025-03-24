@@ -2,11 +2,11 @@ name: Deploy VitePress site to GitHub Pages
 
 on:
   push:
-    branches: [main] # 监听 main 分支的 push 事件
-  workflow_dispatch: # 允许手动触发
+    branches: [main]
+  workflow_dispatch:
 
 permissions:
-  contents: write
+  contents: read
   pages: write
   id-token: write
 
@@ -36,7 +36,7 @@ jobs:
         run: npm run docs:build
 
       - name: Disable Jekyll
-        run: touch .vitepress/dist/.nojekyll # ⬅ 新增這行
+        run: touch .vitepress/dist/.nojekyll # 確保 Jekyll 不會干擾
 
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
